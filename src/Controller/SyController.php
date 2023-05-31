@@ -26,7 +26,7 @@ class SyController extends AbstractController
         return $this->render('sy/home.html.twig');
     }
 
-    #[Route('/kamal', name: 'app_kamal')]
+    #[Route('/kamal', name: 'app_kamal')] 
     public function kamal()
     {
         return $this->render('sy/kamal.html.twig');
